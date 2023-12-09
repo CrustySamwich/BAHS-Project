@@ -1,0 +1,52 @@
+.heroSection {
+    padding-bottom: 5rem;
+}
+
+.mission {
+    font-weight: 400;
+    padding: 2rem;
+    padding-left: 0;
+}
+
+.pets {
+    display: inline-flex;
+    justify-content: center;
+    min-width: 100vw;
+    margin: auto;
+}
+
+.pet {
+    height: 15rem;
+    object-fit: cover;
+    padding: .5rem;
+}
+
+.cardHeader {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.helpCards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    min-height: 20rem;
+}
+
+.card-header {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 1700px) {
+    .helpCards {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .pets {
+        display: inline-block;
+    }
+}
